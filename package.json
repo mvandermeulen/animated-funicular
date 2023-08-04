@@ -1,0 +1,52 @@
+{
+  "name": "nextra",
+  "description": "Minimal Next.js Chakra UI Typescript Template",
+  "version": "2.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/seonglae/nextra.git",
+  "author": "Seonglae Cho <sungle3737@gmail.com>",
+  "browserslist": [
+    "since 2017"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "run-s \"build:**\"",
+    "build:scripts": "node scripts/build.js",
+    "build:web": "next build && next-sitemap",
+    "format": "run-p \"format:**\"",
+    "format:index": "prettier --write \"*.{js,json,md}\"",
+    "format:src": "prettier --write \"src/**/*.{css,js,ts,tsx}\""
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@chakra-ui/system": "^2.6.0",
+    "@chakra-ui/theme-tools": "^2.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "favicons": "^6.2.2",
+    "framer-motion": "^6.5.1",
+    "next": "^13.4.12",
+    "next-seo": "^5.15.0",
+    "nprogress": "^0.2.0",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-markdown": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@types/node": "^18.17.1",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "copy": "^0.3.2",
+    "cross-fetch": "^4.0.0",
+    "eslint": "^8.45.0",
+    "next-sitemap": "^4.1.8",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}

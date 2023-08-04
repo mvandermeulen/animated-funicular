@@ -1,0 +1,12 @@
+.DS_Store
+.env*
+.eslintcache
+.gitignore
+.next
+.vercel
+*.log
+node_modules
+public/**/*
+
+!.env.example
+!/**/.gitkeep
